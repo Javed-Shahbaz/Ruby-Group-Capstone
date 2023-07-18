@@ -7,7 +7,7 @@ def create_sample_data
   label = Label.new(1, 'Harry Potter', 'Red')
   publish_date = Time.now - (9 * 365 * 24 * 60 * 60) # Compare date in years (seconds)
 
-  item = Item.new(1, genre, author, source, label, publish_date)
+  item = Item.new(genre, author, source, label, publish_date)
   genre.add_item(item)
   author.add_item(item)
   source.add_item(item)
