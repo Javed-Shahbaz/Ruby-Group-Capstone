@@ -151,14 +151,14 @@ Feel free to check the [issues page](https://github.com/Javed-Shahbaz/Ruby-Group
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project, be pending on my profile since I'll be doing much more! 
+If you like this project, give us a star. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-If you like this project, give us a star.
+Thanks, Microverse for providing such an opportunity.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
