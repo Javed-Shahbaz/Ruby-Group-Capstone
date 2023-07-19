@@ -31,10 +31,10 @@ class App
   end
 
   def list_genres
-    puts '-------- List of genres: --------'
+    puts '-------- List of Genres: --------'
     puts ''
     if @albums.empty? and @books.empty? and @games.empty?
-      puts 'No genres added yet'
+      puts 'No genre added yet'
     else
       @albums.each do |genre|
         puts "Genre Name: #{genre.genre.name}"
@@ -109,9 +109,9 @@ class App
 
   def quit
     puts ''
-    puts '--------------------------------------------------------------'
-    puts 'Thank you for using the Catalog App!'
-    puts '--------------------------------------------------------------'
+    puts '------------------------------'
+    puts 'Thanks for using Catalog App!'
+    puts '------------------------------'
     @book_options.save_books
     @music_albums.save_music_albums
     @game_options.save_games
