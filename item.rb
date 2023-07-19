@@ -19,7 +19,7 @@ class Item
     if can_be_archived? == true
       @archived = true
     else
-      puts 'This item cannot be archived'
+      puts 'This item can not be archived'
     end
   end
 
