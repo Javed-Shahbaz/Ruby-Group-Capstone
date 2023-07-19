@@ -6,8 +6,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
+  - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
@@ -55,14 +54,6 @@ This project is basically a console application designed for users to maintain a
   - **[Maintain a record of authors, labels, and genres for future reference]
   - **[Ensure data preservation by storing it in JSON files.]
   - **[Conduct RSpec unit tests to verify functionality of code.]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Preview <a name="live-demo"></a>
-!(image.png)
-### 🔭 Test Case Output
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
