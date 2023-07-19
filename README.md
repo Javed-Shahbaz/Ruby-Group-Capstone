@@ -1,50 +1,72 @@
-<a name="readme-top"></a>
+<!-- TABLE OF CONTENTS -->
 
-<div align="center">
-  <h3><b>Catalog of my things</b></h3>
-</div>
-
-# 📗 Table of Contents
+# 📗 Index
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [💻 Getting Started](#getting-started)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
+  - [Install](#install)
   - [Usage](#usage)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
+  - [Deployment](#deployment)
+- [👥 Author](#author)
+- [🔭 Features](#features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 Catalog of my things <a name="about-project"></a>
+<!-- PROJECT DESCRIPTION -->
 
-**Catalog of my things** is a simple console app that allows users to manage collections of the things they own. A user can keep a record of different types of things they own, eg books, music albums, movies, and games.
+# 📖 [Catalog of Things] `[Ruby, Rspec]` <a name="about-project"></a>
+
+
+This project is basically a console application designed for users to maintain a record of their personal items such as books, music albums, and games. The entire system designed on basis of UML diagram. The data stored in JSON files and a SQL database model is used to enhance its scalability.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
-<summary>Ruby</summary>
+    <summary>Client</summary>
+    <ul>
+      <li><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
+    </ul>
+  </details>
+
+<details>
+<summary>Database</summary>
   <ul>
-    <li><a href="https://www.ruby-lang.org/">Ruby</a></li>
+   <li><a href="https://www.json.org/json-en.html">Data Storaged In Json Files</a></li>
   </ul>
 </details>
 
+<!-- Features -->
+
 ### Key Features <a name="key-features"></a>
 
-- **Implement interactive console app**
-- **List all books, movies, games, genre, and authors**
-- **Add books music album, movie, and game**
-- **Preserve data in the JSON file**
-
+  - **[Introduce additional books into the collection]
+  - **[Include new music albums to expand the library's selection]
+  - **[Incorporate new games into the gaming catalog]
+  - **[Maintain a record of authors, labels, and genres for future reference]
+  - **[Ensure data preservation by storing it in JSON files.]
+  - **[Conduct RSpec unit tests to verify functionality of code.]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Preview <a name="live-demo"></a>
+!(image.png)
+### 🔭 Test Case Output
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -52,75 +74,97 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-Ruby
-
 In order to run this project you need:
-to install git on your computer. Follow the instruction on the page to do so
-[Click here ](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and follow the instruction on the page to install git
+
+```sh
+ To have a computer, Internet, Keyboard and Mouse, also you need to have Ruby settle up on your system
+```
 
 ### Setup
 
-Open your preferred folder in the terminal
-
-```sh
-  cd Ruby-Group-Capstone
-```
-
 Clone this repository to your desired folder:
-Using the commands below:
 
 ```sh
-  git clone https://github.com/Javed-Shahbaz/Ruby-Group-Capstone.git
+  Open it with Visual Studio Code (or your preffered IDE), and open a server with "LiveServer".
 ```
 
-Open the project on your code editor
+### Install
+
+To run this project you need to install the following gems:
+
+```sh
+Colorize - Gem install Colorize
+Rubocop - Gem install Rubocop
+```
 
 ### Usage
 
+To run this project, execute the following command:
+
 ```sh
-   run irb on your CMD terminal
+Ruby main.rb
 ```
 
-## 👥 Authors <a name="authors"></a>
+### Deployment
 
+This is only the Back-End part of the project, so It doesn't need any deploy
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHOR -->
+
+## 👥 Authors <a name="author"></a>
+
+👤 **Javed Shahbaz**
+
+- GitHub: [@Javed-Shahbaz](https://github.com/Javed-Shahbaz)
+- Twitter: [@javedshahbaz007](https://twitter.com/javedshahbaz007)
+- LinkedIn: [@javedshahbaz](https://www.linkedin.com/in/javedshahbaz/)
 👤 **Abiola Arobieke**
 
 - GitHub: [@abiola-arobieke](https://github.com/abiola-arobieke)
 - Linkedin: [@abiola-arobieke](https://linkedin.com/in/abiola-arobieke)
 - Twitter: [@abiola_arobieke](https://twitter.com/abiola_arobieke)
 
+<!-- FEATURES -->
+
+## 🔭 Features <a name="features"></a>
+
+- [ ] **[Add more interactions with items]**
+- [ ] **[Edit items]**
+- [ ] **[Delete items]**
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🔭 Future Features <a name="future-features"></a>
-
-- [ ] **[Add database]**
-- [ ] **[Create a schema.sql file with tables]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Javed-Shahbaz/Ruby-Group-Capstone/issues).
+Feel free to check the [issues page](https://github.com/Javed-Shahbaz/Ruby-Group-Capstone/issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project.... Give it a Star
+If you like this project, be pending on my profile since I'll be doing much more! 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-We would like to thank the Microverse team for the learning opportunity
+If you like this project, give us a star.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE.md) licensed.
+This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
