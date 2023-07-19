@@ -102,9 +102,15 @@ This is only the Back-End part of the project, so It doesn't need any deploy
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- AUTHOR -->
+<!-- AUTHORS -->
 
 ## 👥 Authors <a name="author"></a>
+
+👤 **Jesus Molina**
+
+- GitHub: [@Sparktan24](https://github.com/Sparktan24)
+- Twitter: [@Sparktan1](https://twitter.com/@Sparktan1)
+- LinkedIn: [@JesusMolina](https://www.linkedin.com/in/Jesus Molina/)
 
 👤 **Javed Shahbaz**
 
