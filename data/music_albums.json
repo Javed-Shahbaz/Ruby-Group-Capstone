@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "publish_date": "2022-12-12",
+    "genre": "Rock",
+    "label_title": "Albumt",
+    "label_color": "Red",
+    "author_first_name": "Auth",
+    "author_last_name": "LasAuth",
+    "on_spotify": true
+  },
+  {
+    "publish_date": "2011-11-11",
+    "genre": "roca",
+    "label_title": "Albu1",
+    "label_color": "brown",
+    "author_first_name": "nic",
+    "author_last_name": "ol",
+    "on_spotify": true
+  }
+]

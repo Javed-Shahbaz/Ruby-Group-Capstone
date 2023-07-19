@@ -25,7 +25,7 @@ class Main
       puts '7. Add a book'
       puts '8. Add a music album'
       puts '9. Add a game'
-      puts '10. Exit'
+      puts '0. Exit'
       puts
       choice = gets.chomp
       option_selected(choice)
@@ -43,7 +43,7 @@ class Main
       '7' => :add_book,
       '8' => :add_music_album,
       '9' => :add_game,
-      '10' => :quit
+      '0' => :quit
     }
 
     method = options[choice]
