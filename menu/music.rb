@@ -94,7 +94,7 @@ class MusicManager
         on_spotify: album.on_spotify
       )
     end
-    File.write('data/music_albums.json', albums_data.to_json)
+    File.write('data/music_albums.json', JSON.pretty_generate(albums_data))
   end
 
   def load_music_albums

@@ -1,7 +1,6 @@
 require_relative 'menu/book'
 require_relative 'menu/music'
 require_relative 'menu/game'
-require 'colorize'
 
 class App
   def initialize(main)

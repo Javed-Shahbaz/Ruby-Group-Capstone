@@ -97,7 +97,7 @@ class BookOptions
         cover_state: book.cover_state
       )
     end
-    File.write('data/books.json', books_data.to_json)
+    File.write('data/books.json', JSON.pretty_generate(books_data))
   end
 
   def load_books
