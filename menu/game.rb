@@ -86,7 +86,7 @@ class GameOptions
         last_played_at: game.last_played_at
       )
     end
-    File.write('data/game.json', games_data.to_json)
+    File.write('data/game.json', JSON.pretty_generate(games_data))
   end
 
   def load_games
