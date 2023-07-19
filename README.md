@@ -120,6 +120,7 @@ This is only the Back-End part of the project, so It doesn't need any deploy
 - GitHub: [@Javed-Shahbaz](https://github.com/Javed-Shahbaz)
 - Twitter: [@javedshahbaz007](https://twitter.com/javedshahbaz007)
 - LinkedIn: [@javedshahbaz](https://www.linkedin.com/in/javedshahbaz/)
+  
 👤 **Abiola Arobieke**
 
 - GitHub: [@abiola-arobieke](https://github.com/abiola-arobieke)
@@ -150,14 +151,14 @@ Feel free to check the [issues page](https://github.com/Javed-Shahbaz/Ruby-Group
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project, be pending on my profile since I'll be doing much more! 
+If you like this project, give us a star. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-If you like this project, give us a star.
+Thanks, Microverse for providing such an opportunity.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
