@@ -14,7 +14,7 @@ class Main
   def display_menu
     loop do
       puts ''
-      puts 'Please Choose an Option(1-10):'
+      puts 'Please Choose an Option(0-9):'
       puts ''
       puts '1. List all books'
       puts '2. List all music albums'
