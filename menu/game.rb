@@ -31,6 +31,23 @@ class GameOptions
     puts '---------------------------------------'
   end
 
+  def save_games
+    games_data = []
+    @games.each do |game|
+      games_data.push(
+        publish_date: game.publish_date,
+        genre: game.genre.name,
+        label_title: game.label.title,
+        label_color: game.label.color,
+        author_first_name: game.author.first_name,
+        author_last_name: game.author.last_name,
+        multiplayer: game.multiplayer,
+        last_played_at: game.last_played_at
+      )
+    end
+    File.write('data/game.json', JSON.pretty_generate(games_data))
+  end
+
   def add_game
     puts '--- Add new game ---'
     puts 'Please, fill the required information'
@@ -70,23 +87,7 @@ class GameOptions
     author.add_item(game)
     label.add_item(game)
     @games << game
-  end
-
-  def save_games
-    games_data = []
-    @games.each do |game|
-      games_data.push(
-        publish_date: game.publish_date,
-        genre: game.genre.name,
-        label_title: game.label.title,
-        label_color: game.label.color,
-        author_first_name: game.author.first_name,
-        author_last_name: game.author.last_name,
-        multiplayer: game.multiplayer,
-        last_played_at: game.last_played_at
-      )
-    end
-    File.write('data/game.json', JSON.pretty_generate(games_data))
+    save_games
   end
 
   def load_games
