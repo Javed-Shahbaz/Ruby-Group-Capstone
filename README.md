@@ -26,6 +26,10 @@
 
 This project is basically a console application designed for users to maintain a record of their personal items such as books, music albums, and games. The entire system designed on basis of UML diagram. The data stored in JSON files and a SQL database model is used to enhance its scalability.
 
+# Presentation video
+[Watch the video](https://drive.google.com/file/d/17mqaLSSL-SZIfpuG5G8sPGv8FGojIDLJ/view)
+
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
