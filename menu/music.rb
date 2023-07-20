@@ -32,6 +32,22 @@ class MusicManager
     puts '---------------------------------------'
   end
 
+  def save_music_albums
+    albums_data = []
+    @albums.each do |album|
+      albums_data.push(
+        publish_date: album.publish_date,
+        genre: album.genre.name,
+        label_title: album.label.title,
+        label_color: album.label.color,
+        author_first_name: album.author.first_name,
+        author_last_name: album.author.last_name,
+        on_spotify: album.on_spotify
+      )
+    end
+    File.write('data/music_albums.json', JSON.pretty_generate(albums_data))
+  end
+
   def add_music_album
     puts '--- Add new album ---'
     puts 'Please, fill the required information'
@@ -79,22 +95,7 @@ class MusicManager
     author.add_item(album)
     label.add_item(album)
     @albums << album
-  end
-
-  def save_music_albums
-    albums_data = []
-    @albums.each do |album|
-      albums_data.push(
-        publish_date: album.publish_date,
-        genre: album.genre.name,
-        label_title: album.label.title,
-        label_color: album.label.color,
-        author_first_name: album.author.first_name,
-        author_last_name: album.author.last_name,
-        on_spotify: album.on_spotify
-      )
-    end
-    File.write('data/music_albums.json', JSON.pretty_generate(albums_data))
+    save_music_albums
   end
 
   def load_music_albums
