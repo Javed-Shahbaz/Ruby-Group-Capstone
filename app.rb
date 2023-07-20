@@ -111,9 +111,6 @@ class App
     puts '------------------------------'
     puts 'Thanks for using Catalog App!'
     puts '------------------------------'
-    @book_options.save_books
-    @music_albums.save_music_albums
-    @game_options.save_games
     exit
   end
 
