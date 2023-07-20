@@ -1,0 +1,22 @@
+[
+  {
+    "publish_date": "2022-12-12",
+    "genre": "Horror",
+    "label_title": "Book1",
+    "label_color": "Red",
+    "author_first_name": "Jack",
+    "author_last_name": "Mile",
+    "publisher": "pub1",
+    "cover_state": "good"
+  },
+  {
+    "publish_date": "2222-11-11",
+    "genre": "Action",
+    "label_title": "Book2",
+    "label_color": "Black",
+    "author_first_name": "Joseph",
+    "author_last_name": "Riz",
+    "publisher": "publisher D",
+    "cover_state": "good"
+  }
+]
