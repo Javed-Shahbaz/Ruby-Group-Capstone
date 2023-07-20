@@ -31,6 +31,23 @@ class BookOptions
     puts '---------------------------------'
   end
 
+  def save_books
+    books_data = []
+    @books.each do |book|
+      books_data.push(
+        publish_date: book.publish_date,
+        genre: book.genre.name,
+        label_title: book.label.title,
+        label_color: book.label.color,
+        author_first_name: book.author.first_name,
+        author_last_name: book.author.last_name,
+        publisher: book.publisher,
+        cover_state: book.cover_state
+      )
+    end
+    File.write('data/books.json', JSON.pretty_generate(books_data))
+  end
+
   def add_book
     puts '--- Add a Book ---'
     puts 'Please, fill the required information'
@@ -81,23 +98,7 @@ class BookOptions
     author.add_item(book)
     label.add_item(book)
     @books << book
-  end
-
-  def save_books
-    books_data = []
-    @books.each do |book|
-      books_data.push(
-        publish_date: book.publish_date,
-        genre: book.genre.name,
-        label_title: book.label.title,
-        label_color: book.label.color,
-        author_first_name: book.author.first_name,
-        author_last_name: book.author.last_name,
-        publisher: book.publisher,
-        cover_state: book.cover_state
-      )
-    end
-    File.write('data/books.json', JSON.pretty_generate(books_data))
+    save_books
   end
 
   def load_books
