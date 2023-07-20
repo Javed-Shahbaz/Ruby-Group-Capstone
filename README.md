@@ -24,10 +24,10 @@
 # 📖 [Catalog of Things] `[Ruby, Rspec]` <a name="about-project"></a>
 
 
-This project is basically a console application designed for users to maintain a record of their personal items such as books, music albums, and games. The entire system designed on basis of UML diagram. The data stored in JSON files and a SQL database model is used to enhance its scalability.
+This project is basically a console application designed for users to maintain a record of their personal items such as books, music albums, and games. The entire system is designed on the basis of a UML diagram. The data is stored in JSON files and a SQL database model is used to enhance its scalability.
 
 # Presentation video
-[Watch the video](https://drive.google.com/file/d/17mqaLSSL-SZIfpuG5G8sPGv8FGojIDLJ/view)
+[Watch the Video](https://drive.google.com/file/d/17mqaLSSL-SZIfpuG5G8sPGv8FGojIDLJ/view)
 
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -72,7 +72,7 @@ To get a local copy up and running, follow these steps.
 In order to run this project you need:
 
 ```sh
- To have a computer, Internet, Keyboard and Mouse, also you need to have Ruby settle up on your system
+ To have a computer, Internet, Keyboard, and Mouse, also you need to have Ruby settled up on your system
 ```
 
 ### Setup
@@ -80,7 +80,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```sh
-  Open it with Visual Studio Code (or your preffered IDE), and open a server with "LiveServer".
+  Open it with Visual Studio Code (or your preferred IDE), and open a server with "LiveServer".
 ```
 
 ### Install
@@ -114,7 +114,7 @@ This is only the Back-End part of the project, so It doesn't need any deploy
 
 - GitHub: [@Sparktan24](https://github.com/Sparktan24)
 - Twitter: [@Sparktan1](https://twitter.com/@Sparktan1)
-- LinkedIn: [@JesusMolina](https://www.linkedin.com/in/Jesus Molina/)
+- LinkedIn: [@JesusMolina]([https://www.linkedin.com/in/jesus-molina-e)
 
 👤 **Javed Shahbaz**
 
