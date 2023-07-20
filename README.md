@@ -21,7 +21,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Catalog of Things] `[Ruby, Rspec]` <a name="about-project"></a>
+# 📖 [Catalog of Things] <a name="about-project"></a>
 
 
 This project is basically a console application designed for users to maintain a record of their personal items such as books, music albums, and games. The entire system is designed on the basis of a UML diagram. The data is stored in JSON files and a SQL database model is used to enhance its scalability.
